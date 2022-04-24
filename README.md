@@ -1,16 +1,10 @@
 # finance_friend
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+1. project setup Ep:1
+# [watch now](https://youtu.be/tAmHk1vj4jM)  ----  
+# [ Source code ](https://github.com/Zeeshan-progs/finance_friend/tree/main/lib) ----
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![finance friend day1](https://user-images.githubusercontent.com/67018643/164976678-4437777a-03d7-4908-9df4-1185ec9e8787.png)
