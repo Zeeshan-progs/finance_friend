@@ -23,6 +23,7 @@ dependencies:
   # we are get for statemanagement 
   get: ^4.6.1
 
+  animated_bottom_navigation_bar: ^0.3.3
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -33,10 +34,10 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/fonts/
-    - assets/icons/
-    - assets/images/
+    - assets/fonts/  
     - assets/svg/
+    - assets/lootie/
+    - assets/images/  
 
   fonts:
     - family: Poppins-Black
