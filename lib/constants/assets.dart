@@ -7,4 +7,7 @@ class Assets {
   static const String wallet = 'assets/svg/wallet.png';
   static const String profile = 'assets/svg/user.png';
   static const String cashBanner = 'assets/svg/cash_banner.png';
+
+  // lottie image
+  static const String lottieImage = 'assets/lootie/finance.json';
 }
