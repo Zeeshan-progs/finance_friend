@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       navigatorKey: _navigatorService.naviagatorKey,
       routes: Routes.routes,
+      darkTheme: themeData,
       initialRoute: Routes.home,
       title: 'Finance Friend',
       debugShowCheckedModeBanner: false,

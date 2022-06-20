@@ -13,7 +13,7 @@ class DeviceUtils {
   }
 
 // blank spacec width
-  Widget blackWidget(double value) {
+  Widget blackWidth(double value) {
     return Container(
       width: value,
     );
