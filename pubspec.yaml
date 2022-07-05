@@ -27,6 +27,13 @@ dependencies:
 
 # this package is for animated image in flutter 
   lottie: ^1.3.0
+
+# formating date/time, currency and necessary formating
+  intl: ^0.17.0
+
+  syncfusion_flutter_calendar: ^20.1.60
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
