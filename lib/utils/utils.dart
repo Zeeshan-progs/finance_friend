@@ -6,14 +6,14 @@ import '../di/service utils/service_locator.dart';
 class DeviceUtils {
   var navigationService = getIt<NavigationService>().naviagatorKey;
   // blank space height
-  Widget blackHeight(double height) {
+ static Widget blackHeight(double height) {
     return Container(
       height: height,
     );
   }
 
 // blank spacec width
-  Widget blackWidth(double value) {
+static  Widget blackWidth(double value) {
     return Container(
       width: value,
     );

@@ -20,7 +20,19 @@ ThemeData themeData = ThemeData(
       color: AppColor.black,
       fontSize: 14,
       fontFamily: FontFamily.popins,
-      fontWeight: FontWeight.w400,
+      fontWeight: FontWeight.normal,
+    ),
+    subtitle1:  TextStyle(
+      color: AppColor.white,
+      fontSize: 14,
+      fontFamily: FontFamily.popins,
+      fontWeight: FontWeight.normal,
+    ),
+    headline6: TextStyle(
+      color: AppColor.black,
+      fontSize: 14,
+      fontFamily: FontFamily.popins,
+      fontWeight: FontWeight.w500,
     ),
   ),
 );
