@@ -20,9 +20,17 @@ ThemeData themeData = ThemeData(
       color: AppColor.black,
       fontSize: 14,
       fontFamily: FontFamily.popins,
-      fontWeight: FontWeight.normal,
+      letterSpacing: 0.35,
+      fontWeight: FontWeight.w200,
     ),
-    subtitle1:  TextStyle(
+    bodyText2: TextStyle(
+      color: AppColor.black,
+      fontSize: 14,
+      fontFamily: FontFamily.popins,
+      fontWeight: FontWeight.w200,
+      letterSpacing: 0.35,
+    ),
+    subtitle1: TextStyle(
       color: AppColor.white,
       fontSize: 14,
       fontFamily: FontFamily.popins,

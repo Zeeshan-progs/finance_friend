@@ -7,6 +7,7 @@ class AppColor {
   static const Color secondary = Color(0xFFFFC727);
   static const Color text = Color(0xFF37474F);
   static const Color grey = Color(0xFF818181);
+  static const Color error = Colors.red;
   static const Map<int, Color> greymap = {
     10: Color(0xFF37474F),
   };

@@ -35,7 +35,8 @@ class Dashboard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               // lets add lottie image in our app
-              DeviceUtils.blackHeight(20),
+              DeviceUtils.blankHeight
+(20),
               Container(
                 height: DeviceUtils.getScaledHeight(context, 0.4),
                 width: DeviceUtils.width(context),
@@ -47,7 +48,8 @@ class Dashboard extends StatelessWidget {
                 ),
               ),
 
-              DeviceUtils.blackHeight(16),
+              DeviceUtils.blankHeight
+(16),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 16.0),
                 child: Text(
@@ -56,9 +58,11 @@ class Dashboard extends StatelessWidget {
                 ),
               ),
 
-              DeviceUtils.blackHeight(16),
+              DeviceUtils.blankHeight
+(16),
               _transactionWidget(context),
-              DeviceUtils.blackHeight(19),
+              DeviceUtils.blankHeight
+(19),
               Container(
                 width: DeviceUtils.width(context),
                 margin: const EdgeInsets.symmetric(horizontal: 12),
@@ -96,7 +100,7 @@ class Dashboard extends StatelessWidget {
                         )
                       ],
                     ),
-                    DeviceUtils.blackHeight(16),
+                    DeviceUtils.blankHeight(16),
                     ...List.generate(
                       3,
                       (index) => HistoryCard(index: index),
@@ -133,7 +137,7 @@ class Dashboard extends StatelessWidget {
                     height: 40,
                     width: 30,
                   ),
-                  DeviceUtils.blackWidth(14),
+                  DeviceUtils.blankWidth(14),
                   Text(
                     'Amount paid ',
                     style: themeData.textTheme.bodyText1?.copyWith(
@@ -144,7 +148,8 @@ class Dashboard extends StatelessWidget {
                   ),
                 ],
               ),
-              DeviceUtils.blackHeight(16),
+              DeviceUtils.blankHeight
+(16),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [

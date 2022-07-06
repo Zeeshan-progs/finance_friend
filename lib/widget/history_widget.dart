@@ -57,7 +57,7 @@ class HistoryCard extends StatelessWidget {
               ),
             ],
           ),
-          DeviceUtils.blackHeight(15),
+          DeviceUtils.blankHeight(15),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [

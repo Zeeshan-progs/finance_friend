@@ -32,7 +32,7 @@ class Routes {
     calendar: (contex) => const Calendar(),
     dashboard: (contex) => const Dashboard(),
     wallet: (contex) => const Wallet(),
-    create: (contex) => const Create(),
+    create: (contex) =>  Create(),
     profile: (contex) => const Profile(),
   };
 }
